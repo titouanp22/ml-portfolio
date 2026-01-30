@@ -18,7 +18,7 @@ Repo: []()
 ## MVA Projects
 
 ### Audio Super-Resolution
-**Course:** [Deep learning and signal processing] – Prof. [T. COURTAT]  
+**Course:** [Deep learning and signal processing](https://www.master-mva.com/cours/apprentissage-profond-et-traitement-du-signal-introduction-et-applications-industrielles/) – Prof. [T. COURTAT]  
 **Collaborator:** [Maxime Muhlethaler]  
 
 Upsampling low-resolution audio signals (4 kHz to 8 kHz) using deep learning models
