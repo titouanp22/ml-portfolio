@@ -43,7 +43,7 @@ Repo: [Contrastive MedSeg PyTorch Project](https://github.com/MaximeMuh/contrast
 
 Denoising neurophysiological (MEG) time-series using multi-scale MDCT-based greedy algorithms
 
-Report: [Mini-Project (ML for Time Series)](MVA/report_time_series.pdf)
+Report: [Report Mini-Project ML for Time Series](MVA/report_time_series.pdf)
 
 Repo: [Mini-Project ML for Time Series](https://github.com/titouanp22/Mini-Project-ML-for-Time-Series)  
 
@@ -55,9 +55,9 @@ Repo: [Mini-Project ML for Time Series](https://github.com/titouanp22/Mini-Proje
 **Semester project:** [In collaboration with Sanofi and CERMICS] – Supervisors. [P. Gkeka, G. Stolz, T. Levièvre, R. Santet]  
 **Collaborators:** [Gaspard Beaudoin, Maxime Muhlethaler]  
 
-Poster: [Drug Design](Poster_drug_design.pdf)
+Poster: [Poster Drug Design](Poster_drug_design.pdf)
 
-Report: [Drug Design](ENPC/Report_drug_design.pdf)
+Report: [Report Drug Design](ENPC/Report_drug_design.pdf)
 
 ## Contact
 - Email: titouan.pottier22@gmail.com
