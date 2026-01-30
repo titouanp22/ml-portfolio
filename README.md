@@ -2,7 +2,7 @@
 
 MVA – ENS Paris-Saclay  
 
-## Internship Projects
+## 
 
 ### Antibody–Antigen Affinity Prediction using Deep Learning
 **Scuola Normale Superiore** - Supervisor : [F. RAIMONDI]
@@ -42,6 +42,15 @@ Denoising neurophysiological (MEG) time-series using multi-scale MDCT-based gree
 Repo: [Mini-Project ML for Time Series](https://github.com/titouanp22/Mini-Project-ML-for-Time-Series)  
 
 ---
+
+## ENPC Projects
+
+### Drug Design
+**Semester project:** [In collaboration with Sanofi and CERMICS] – Supervisors. [P. Gkeka, G. Stolz, T. Levièvre, R. Santet]  
+**Collaborators:** [Gaspard Beaudoin, Maxime Muhlethaler]  
+
+Mettre seulement le rapport + poster ?
+
 
 ## Contact
 - Email: titouan.pottier22@gmail.com
