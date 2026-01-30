@@ -2,11 +2,15 @@
 
 MVA – ENS Paris-Saclay  
 
-## 
+## Research Internship Project
 
-### Antibody–Antigen Affinity Prediction using Deep Learning
-**Scuola Normale Superiore** - Supervisor : [F. RAIMONDI]
-...
+### Antibody–Antigen Affinity Prediction
+**Scuola Normale Superiore - Bio@SNS** - Supervisor : [F. RAIMONDI]
+
+Prediction of binding affinity between antibodies and antigens from amino acid sequences using protein language models. The approach leverages transformer-based architectures such as [ProtBERT](https://github.com/nadavbra/protein_bert), [ESM-2](https://github.com/facebookresearch/esm), and [Boltz](https://github.com/jwohlwend/boltz)
+
+
+Repo: []()
 
 
 
@@ -51,9 +55,11 @@ Repo: [Mini-Project ML for Time Series](https://github.com/titouanp22/Mini-Proje
 
 ## ENPC Projects
 
-### Drug Design
-**Semester project:** [In collaboration with Sanofi and CERMICS] – Supervisors. [P. Gkeka, G. Stolz, T. Levièvre, R. Santet]  
+### Diffusion Models for drug discovery
+**With Sanofi and CERMICS (ENPC)** [Research Project] – Supervisors. [P. Gkeka, G. Stolz, T. Levièvre, R. Santet]  
 **Collaborators:** [Gaspard Beaudoin, Maxime Muhlethaler]  
+
+Using Diffusion Models like [DiffDock](https://github.com/gcorso/DiffDock) for drug discovery
 
 Poster: [Poster Drug Design](Poster_drug_design.pdf)
 
