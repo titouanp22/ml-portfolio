@@ -29,7 +29,9 @@ Repo: [Mini-Project ML Audio Super-Resolution](https://github.com/titouanp22/Min
 
 PyTorch reimplementation of a semi-supervised medical image segmentation method using local contrastive loss and pseudo-labeling
 
-Report: (MVA/report_medical_images.pdf)
+Report: [Local contrastive loss with pseudo-label based
+self-training for semi-supervised medical image
+segmentation](MVA/report_medical_images.pdf)
 
 Repo: [Contrastive MedSeg PyTorch Project](https://github.com/MaximeMuh/contrastive-medseg-pytorch_project)  
 
@@ -41,7 +43,7 @@ Repo: [Contrastive MedSeg PyTorch Project](https://github.com/MaximeMuh/contrast
 
 Denoising neurophysiological (MEG) time-series using multi-scale MDCT-based greedy algorithms
 
-Report: (MVA/report_time_series)
+Report: [Mini-Project (ML for Time Series)](MVA/report_time_series.pdf)
 
 Repo: [Mini-Project ML for Time Series](https://github.com/titouanp22/Mini-Project-ML-for-Time-Series)  
 
@@ -53,9 +55,9 @@ Repo: [Mini-Project ML for Time Series](https://github.com/titouanp22/Mini-Proje
 **Semester project:** [In collaboration with Sanofi and CERMICS] – Supervisors. [P. Gkeka, G. Stolz, T. Levièvre, R. Santet]  
 **Collaborators:** [Gaspard Beaudoin, Maxime Muhlethaler]  
 
-Poster: (Poster_drug_design.pdf)
+Poster: [Drug Design](Poster_drug_design.pdf)
 
-Report: (ENPC/Report_drug_design.pdf)
+Report: [Drug Design](ENPC/Report_drug_design.pdf)
 
 ## Contact
 - Email: titouan.pottier22@gmail.com
