@@ -2,6 +2,14 @@
 
 MVA – ENS Paris-Saclay  
 
+## Internship Projects
+
+### Antibody–Antigen Affinity Prediction using Deep Learning
+**Scuola Normale Superiore** - Supervisor : [F. RAIMONDI]
+...
+
+
+
 
 ## MVA Projects
 
