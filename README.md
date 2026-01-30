@@ -4,8 +4,8 @@ MVA – ENS Paris-Saclay
 
 ## Research Internship Project
 
-### Antibody–Antigen Affinity Prediction
-**Scuola Normale Superiore - Bio@SNS** - Supervisor : [F. RAIMONDI]
+### Antibody / Antigen Affinity Prediction
+**Scuola Normale Superiore** [Bio@SNS](https://bioinfolab.sns.it/) - Supervisor : [F. RAIMONDI]
 
 Prediction of binding affinity between antibodies and antigens from amino acid sequences using protein language models. The approach leverages transformer-based architectures such as [ProtBERT](https://github.com/nadavbra/protein_bert), [ESM-2](https://github.com/facebookresearch/esm), and [Boltz](https://github.com/jwohlwend/boltz)
 
@@ -28,7 +28,7 @@ Repo: [Mini-Project ML Audio Super-Resolution](https://github.com/titouanp22/Min
 ---
 
 ### Semi-Supervised Medical Image Segmentation
-**Course:** [Medical image analysis based on generative, geometric and biophysical models] – Prof. [H. DELINGETTE, X. PENNEC]  
+**Course:** [Medical image analysis based on generative, geometric and biophysical models](https://www.master-mva.com/cours/introduction-to-medical-image-analysis/) – Prof. [H. DELINGETTE, X. PENNEC]  
 **Collaborators:** [Nicolas Beaujoin, Maxime Muhlethaler]  
 
 PyTorch reimplementation of a semi-supervised medical image segmentation method using local contrastive loss and pseudo-labeling
@@ -42,7 +42,7 @@ Repo: [Contrastive MedSeg PyTorch Project](https://github.com/MaximeMuh/contrast
 ---
 
 ### Multi-scale Time–Frequency Denoising (BIRD)
-**Course:** [Machine learning for time series] – Prof. [L. OUDRE]  
+**Course:** [Machine learning for time series](https://www.master-mva.com/cours/apprentissage-pour-les-series-temporelles/) – Prof. [L. OUDRE]  
 **Collaborator:** [Maxime Muhlethaler]  
 
 Denoising neurophysiological (MEG) time-series using multi-scale MDCT-based greedy algorithms
