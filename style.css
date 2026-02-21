@@ -77,6 +77,11 @@ a:hover {
   color: #0066cc;
 }
 
+.sidebar nav a.active {
+  color: #111;
+  font-weight: 700;
+}
+
 /* =========================
    MAIN CONTENT
 ========================= */
@@ -123,7 +128,7 @@ h2 {
 }
 
 .clean-list > li::before {
-  content: "•";
+  content: "\2022";
   position: absolute;
   left: 0;
   top: 2px;
