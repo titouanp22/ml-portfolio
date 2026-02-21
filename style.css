@@ -31,3 +31,25 @@
 .project-links a {
   margin-right: 15px;
 }
+
+
+.project-list {
+  padding-left: 20px;
+}
+
+.project-list > li {
+  margin-bottom: 35px;
+}
+
+.project-sub {
+  font-size: 14px;
+  color: #666;
+}
+
+.project-list ul {
+  margin-top: 8px;
+}
+
+.project-list ul li {
+  margin-bottom: 6px;
+}
