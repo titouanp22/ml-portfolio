@@ -15,32 +15,148 @@
   <nav>
     <a href="index.html">Profile</a>
     <a href="background.html">Background</a>
-    <a href="projects.html">Projects</a>
+    <a href="projects.html"><strong>Projects</strong></a>
   </nav>
 </div>
 
 <div class="content">
-  <h1>Projects</h1>
 
-  <h2>Antibody / Antigen Affinity Prediction</h2>
-  <p>
-    Prediction of binding affinity using transformer-based protein language models.
-  </p>
+<h1>Projects</h1>
 
-  <h2>Audio Super-Resolution</h2>
-  <p>
-    Deep learning models for upsampling audio signals (4kHz → 8kHz).
-  </p>
+<!-- ======================= -->
+<div class="project-section">
+  <h2>Research Internship Project</h2>
 
-  <h2>Semi-Supervised Medical Image Segmentation</h2>
-  <p>
-    PyTorch reimplementation using local contrastive loss and pseudo-labeling.
-  </p>
+  <div class="project-card">
+    <h3>Antibody / Antigen Affinity Prediction</h3>
 
-  <h2>Diffusion Models for Drug Discovery</h2>
-  <p>
-    Use of DiffDock for molecular docking and drug design.
-  </p>
+    <div class="project-meta">
+      <strong>Scuola Normale Superiore</strong> – 
+      <a href="https://bioinfolab.sns.it/" target="_blank">Bio@SNS</a>  
+      | Supervisor: F. Raimondi
+    </div>
+
+    <p>
+      Prediction of binding affinity between antibodies and antigens from amino acid sequences
+      using protein language models. The approach leverages transformer-based architectures such as
+      <a href="https://github.com/nadavbra/protein_bert" target="_blank">ProtBERT</a>,
+      <a href="https://github.com/facebookresearch/esm" target="_blank">ESM-2</a>,
+      and <a href="https://github.com/jwohlwend/boltz" target="_blank">Boltz</a>.
+    </p>
+
+    <div class="project-links">
+      <a href="#">Repository</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- ======================= -->
+<div class="project-section">
+  <h2>MVA Projects</h2>
+
+  <div class="project-card">
+    <h3>Audio Super-Resolution</h3>
+
+    <div class="project-meta">
+      Course:
+      <a href="https://www.master-mva.com/cours/apprentissage-profond-et-traitement-du-signal-introduction-et-applications-industrielles/" target="_blank">
+      Deep Learning and Signal Processing</a>  
+      | Prof. T. Courtat  
+      | Collaborator: Maxime Muhlethaler
+    </div>
+
+    <p>
+      Upsampling low-resolution audio signals (4 kHz → 8 kHz)
+      using deep learning architectures.
+    </p>
+
+    <div class="project-links">
+      <a href="https://github.com/titouanp22/Mini-Project-ML-Audio-Super-Resolution" target="_blank">
+        Repository
+      </a>
+    </div>
+  </div>
+
+
+  <div class="project-card">
+    <h3>Semi-Supervised Medical Image Segmentation</h3>
+
+    <div class="project-meta">
+      Course:
+      <a href="https://www.master-mva.com/cours/introduction-to-medical-image-analysis/" target="_blank">
+      Medical Image Analysis</a>  
+      | Prof. H. Delingette, X. Pennec  
+      | Collaborators: Nicolas Beaujoin, Maxime Muhlethaler
+    </div>
+
+    <p>
+      PyTorch reimplementation of a semi-supervised medical image segmentation
+      method using local contrastive loss and pseudo-labeling.
+    </p>
+
+    <div class="project-links">
+      <a href="MVA/report_medical_images.pdf">Report</a>
+      <a href="https://github.com/MaximeMuh/contrastive-medseg-pytorch_project" target="_blank">
+        Repository
+      </a>
+    </div>
+  </div>
+
+
+  <div class="project-card">
+    <h3>Multi-scale Time–Frequency Denoising (BIRD)</h3>
+
+    <div class="project-meta">
+      Course:
+      <a href="https://www.master-mva.com/cours/apprentissage-pour-les-series-temporelles/" target="_blank">
+      Machine Learning for Time Series</a>  
+      | Prof. L. Oudre  
+      | Collaborator: Maxime Muhlethaler
+    </div>
+
+    <p>
+      Denoising neurophysiological (MEG) time-series
+      using multi-scale MDCT-based greedy algorithms.
+    </p>
+
+    <div class="project-links">
+      <a href="MVA/report_time_series.pdf">Report</a>
+      <a href="https://github.com/titouanp22/Mini-Project-ML-for-Time-Series" target="_blank">
+        Repository
+      </a>
+    </div>
+  </div>
+
+</div>
+
+
+<!-- ======================= -->
+<div class="project-section">
+  <h2>ENPC Projects</h2>
+
+  <div class="project-card">
+    <h3>Diffusion Models for Drug Discovery</h3>
+
+    <div class="project-meta">
+      With Sanofi & CERMICS (ENPC)  
+      | Supervisors: P. Gkeka, G. Stolz, T. Levièvre, R. Santet  
+      | Collaborators: Gaspard Beaudoin, Maxime Muhlethaler
+    </div>
+
+    <p>
+      Using diffusion-based generative models such as
+      <a href="https://github.com/gcorso/DiffDock" target="_blank">DiffDock</a>
+      for structure-based drug discovery.
+    </p>
+
+    <div class="project-links">
+      <a href="Poster_drug_design.pdf">Poster</a>
+      <a href="ENPC/Report_drug_design.pdf">Report</a>
+    </div>
+  </div>
+
+</div>
 
 </div>
 
