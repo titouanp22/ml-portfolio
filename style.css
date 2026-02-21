@@ -1,28 +1,142 @@
+/* =========================
+   GLOBAL
+========================= */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  display: flex;
+  line-height: 1.6;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+
+.sidebar {
+  width: 280px;
+  background: white;
+  height: 100vh;
+  padding: 40px 20px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.05);
+  position: fixed;
+}
+
+.sidebar img {
+  width: 180px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+.sidebar h2 {
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.sidebar p {
+  text-align: center;
+  color: #777;
+  font-size: 14px;
+  margin: 0;
+}
+
+.sidebar nav {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.sidebar nav a {
+  display: block;
+  margin: 12px 0;
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.sidebar nav a:hover {
+  color: #0066cc;
+}
+
+/* =========================
+   MAIN CONTENT
+========================= */
+
+.content {
+  margin-left: 320px;
+  padding: 60px;
+  max-width: 900px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+h2 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: #222;
+  font-weight: 600;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+/* =========================
+   PROJECTS (Clean Academic Style)
+========================= */
 
 .project-list {
-  padding-left: 20px;
-  margin-top: 10px;
+  list-style-type: disc;
+  padding-left: 22px;
+  margin: 0;
 }
 
 .project-list > li {
-  margin-bottom: 35px;
+  margin-bottom: 40px;
+}
+
+.project-list strong {
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .project-sub {
+  display: block;
   font-size: 14px;
   color: #666;
+  margin-top: 4px;
+  margin-bottom: 8px;
 }
 
 .project-list ul {
+  list-style-type: circle;
+  padding-left: 20px;
   margin-top: 8px;
-  padding-left: 18px;
 }
 
 .project-list ul li {
   margin-bottom: 6px;
+  line-height: 1.5;
 }
 
-/* Subtle bullet refinement */
+/* Bullet color refinement */
 .project-list li::marker {
   color: #999;
 }
