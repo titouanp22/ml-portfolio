@@ -116,11 +116,11 @@ h2 {
 }
 
 .section + .section {
-  border-top: 1px solid #e6e6e6;
+  border-top: 1px solid #818080;
 }
 
 .content > h2:not(:first-of-type) {
-  border-top: 1px solid #e6e6e6;
+  border-top: 1px solid #818080;
   padding-top: 28px;
   margin-top: 28px;
 }
