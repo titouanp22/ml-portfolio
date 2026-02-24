@@ -70,7 +70,6 @@ a:hover {
   margin: 12px 0;
   color: #444;
   font-weight: 500;
-  transition: color 0.2s ease;
 }
 
 .sidebar nav a:hover {
@@ -83,13 +82,13 @@ a:hover {
 }
 
 /* =========================
-   MAIN CONTENT
+   CONTENT
 ========================= */
 
 .content {
   margin-left: 320px;
   padding: 60px;
-  max-width: 900px;
+  max-width: 1000px;
 }
 
 h1 {
@@ -99,106 +98,75 @@ h1 {
 }
 
 h2 {
-  margin-top: 0;
-  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: 25px;
   font-weight: 600;
   color: #222;
-  border-bottom: none;
-  padding-bottom: 0;
-}
-
-.section {
-  padding: 28px 0;
-}
-
-.section:first-of-type {
-  padding-top: 0;
-}
-
-.section + .section {
-  border-top: 1px solid #818080;
-}
-
-.content > h2:not(:first-of-type) {
-  border-top: 1px solid #818080;
-  padding-top: 28px;
-  margin-top: 28px;
 }
 
 /* =========================
-   CLEAN BULLET LIST
+   PROJECT CARD
 ========================= */
 
-.clean-list {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
+.project-card {
+  display: flex;
+  gap: 25px;
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.04);
+  margin-bottom: 50px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.clean-list > li {
-  margin-bottom: 30px;
-  padding-left: 22px;
-  position: relative;
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
 }
 
-.clean-list > li::before {
-  content: "•";
-  position: absolute;
-  left: 0;
-  top: 2px;
-  font-size: 18px;
-  color: #0066cc;
-  line-height: 1;
+.project-image img {
+  width: 240px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
 }
 
-.clean-list ul {
-  margin-top: 10px;
-  padding-left: 20px;
+.project-image img:hover {
+  transform: scale(1.04);
 }
 
-.clean-list ul li {
-  margin-bottom: 6px;
-  font-size: 14px;
-  color: #555;
-  list-style-type: circle;
+.project-content {
+  flex: 1;
 }
 
-/* =========================
-   PROJECTS LIST
-========================= */
-
-.project-list {
-  list-style-type: disc;
-  padding-left: 22px;
-  margin: 0;
-}
-
-.project-list > li {
-  margin-bottom: 40px;
-}
-
-.project-list strong {
-  font-size: 18px;
+.project-title {
+  font-size: 20px;
   font-weight: 600;
+  margin-bottom: 6px;
 }
 
 .project-sub {
-  display: block;
   font-size: 14px;
   color: #666;
-  margin-top: 4px;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 
-.project-list ul {
-  list-style-type: circle;
-  padding-left: 20px;
+.project-content ul {
+  padding-left: 18px;
   margin-top: 8px;
 }
 
-.project-list ul li {
+.project-content ul li {
   margin-bottom: 6px;
-  line-height: 1.5;
+  font-size: 15px;
+  color: #444;
+}
+
+.project-links {
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 /* =========================
@@ -224,4 +192,12 @@ h2 {
     padding: 40px 20px;
   }
 
+  .project-card {
+    flex-direction: column;
+  }
+
+  .project-image img {
+    width: 100%;
+    height: auto;
+  }
 }
